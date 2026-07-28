@@ -1,0 +1,46 @@
+# 🤖 Jarvis AI — Desktop Voice & Text Assistant
+
+A modern, multi-functional desktop assistant built with Python and Tkinter. **Jarvis** integrates real-time AI capabilities powered by Google's Gemini API, complete with voice recognition, speech synthesis, system automation, and an intuitive dark-themed GUI.
+
+---
+
+## ✨ Features
+
+* **🧠 AI Intelligence (Google Gemini)**: Ask questions, summarize text, explain concepts, or generate code snippets instantly using `gemini-2.5-flash`.
+* **🎙️ Dual Input Modes**: Interact seamlessly via direct text input or hands-free voice commands.
+* **🗣️ Text-to-Speech (TTS)**: Voice responses powered by `gTTS` and `pyttsx3` with customizable volume, Hindi/English language switching, and male/female voice options.
+* **🖥️ System Control**:
+  * Lock screen, shutdown, or restart your PC via voice commands.
+  * Adjust or mute/unmute system volume.
+  * Launch apps, open file directories, or set desktop wallpapers.
+* **🌐 Web & Media Integration**:
+  * Play songs on YouTube or Spotify.
+  * Open quick web links (Google, YouTube, Cricbuzz, social media).
+  * Pause/Resume video playback hands-free.
+* **⏰ Productivity Tools**:
+  * Set desktop alarms and time-based reminders.
+  * Fetch live top news headlines (India/Global).
+  * Extract and read PDF content out loud using PyMuPDF.
+  * Capture instant photos using your device camera.
+* **📜 Conversation History**: Local session logging to view and clear past interactions.
+
+---
+
+## 🛠️ Tech Stack
+
+* **GUI Framework**: Python `tkinter` (Custom styled components)
+* **AI Model**: Google GenAI SDK (`google-genai`)
+* **Voice & Audio**: `SpeechRecognition`, `gTTS`, `pyttsx3`, `pygame`
+* **Media & Systems**: `opencv-python`, `pyautogui`, `fitz` (PyMuPDF), `pywhatkit`, `requests`
+
+---
+
+## 🚀 Quick Start
+
+### 1. Prerequisites
+Ensure you have **Python 3.10+** installed on your system.
+
+### 2. Clone the Repository
+```bash
+git clone [https://github.com/your-username/jarvis-assistant.git](https://github.com/your-username/jarvis-assistant.git)
+cd jarvis-assistant
